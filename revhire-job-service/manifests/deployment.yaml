@@ -21,7 +21,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: revhire-job-service
+  name: job-service
   labels:
     app: revhire-job
 spec:
