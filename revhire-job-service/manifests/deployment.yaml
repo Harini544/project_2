@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: revhire-job
-          image: public.ecr.aws/a6p3b4m6/revhire-job-service:latest
+          image: newregistry1978.azurecr.io/job-service:latest
 
 ---
 apiVersion: v1
