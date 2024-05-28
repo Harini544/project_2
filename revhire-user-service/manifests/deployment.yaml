@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: revhire-user
-          image: public.ecr.aws/a6p3b4m6/revhire-user-service:latest
+          image: newregistry1978.azurecr.io/user-service:latest
           
 ---
 apiVersion: v1
