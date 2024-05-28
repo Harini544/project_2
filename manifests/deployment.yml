@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: p2 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: p2
+  template:
+    metadata:
+      labels:
+        app: p2 
+    spec:
+      containers:
+        - name: p2 
+          image: newregistry1978.azurecr.io/p2
+          ports:
+          - containerPort: 8000
